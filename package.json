@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "watch": "node-sass --watch scss -o css"
+  }
+}
