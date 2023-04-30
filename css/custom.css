@@ -16,6 +16,12 @@ body, html {
 .bar a {
   color: #800020 !important; }
 
+@media screen and (min-width: 600px) {
+  #myNavbar .bar-item {
+    font-size: 1.25rem; }
+  #myNavbar .social-nav {
+    font-size: 1.5rem; } }
+
 .display-middle {
   display: flex;
   justify-content: center;
@@ -98,3 +104,9 @@ body, html {
 .bgimg-3 {
   background-image: url("../assets/images/fencedintruck.jpg");
   min-height: 400px; }
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1000px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px; } }
