@@ -86,7 +86,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("../assets/images/pexels-travis-saylor-951408.jpg");
+  background-image: url("../assets/images/job2.jpg");
   min-height: 100%; }
 
 /* Second image (Portfolio) */
@@ -98,15 +98,3 @@ body, html {
 .bgimg-3 {
   background-image: url("../assets/images/fencedintruck.jpg");
   min-height: 400px; }
-
-.w3-wide {
-  letter-spacing: 10px; }
-
-.w3-hover-opacity {
-  cursor: pointer; }
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px; } }
