@@ -20,7 +20,9 @@ body, html {
   color: $burgundy !important
   }
 }
-
+.hide-load{
+  display: none;
+}
 #myNavbar{
   @media screen and (min-width:600px){
     .bar-item{

@@ -5,6 +5,12 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
+function loadImages(){
+    document.querySelectorAll('.hide-load').forEach(image =>{
+        image.style.display = 'block';
+    })
+    document.querySelector('.hide-btn').style.display = 'none';
+}
 
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};

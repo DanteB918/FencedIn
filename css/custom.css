@@ -16,6 +16,9 @@ body, html {
 .bar a {
   color: #800020 !important; }
 
+.hide-load {
+  display: none; }
+
 @media screen and (min-width: 600px) {
   #myNavbar .bar-item {
     font-size: 1.25rem; }
