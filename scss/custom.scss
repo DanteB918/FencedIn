@@ -33,7 +33,20 @@ body, html {
     }
   }
 }
-
+//Portfolio
+#portfolio{
+  img{
+    width: 100%;
+  }
+  @media screen and (max-width: 600px){ //mobile
+      img{
+        margin: 1% 0;
+      }
+      .section{
+        margin: 0 !important;
+      }
+  }
+}
 .display-middle{
   display: flex;
   justify-content: center;

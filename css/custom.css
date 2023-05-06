@@ -25,6 +25,15 @@ body, html {
   #myNavbar .social-nav {
     font-size: 1.5rem; } }
 
+#portfolio img {
+  width: 100%; }
+
+@media screen and (max-width: 600px) {
+  #portfolio img {
+    margin: 1% 0; }
+  #portfolio .section {
+    margin: 0 !important; } }
+
 .display-middle {
   display: flex;
   justify-content: center;
